@@ -1,5 +1,5 @@
 ### Hi there 👋
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=computertech312&theme=github_dark)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=computertech312)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **ComputerTech312/ComputerTech312** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

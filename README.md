@@ -1,4 +1,5 @@
 ### Hi there 👋
+[![CT stats](https://computertech.co/chart.html)](https://computertech.co/chart.html)
 <!--
 **ComputerTech312/ComputerTech312** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

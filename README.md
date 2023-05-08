@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+```python
 class AboutMe:
     def __init__(self):
         self.name = 'Colby'
@@ -13,3 +14,4 @@ class AboutMe:
                 "description": "A simple IRC bot written in Python, depending on no third party framework."
             },
         ]
+```

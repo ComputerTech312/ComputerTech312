@@ -7,7 +7,7 @@ class AboutMe:
         self.location = 'Northern Ireland'
         self.hobbies = ['Programming', 'Sysadmin']
         self.languages = ['Python', 'HTML', 'CSS', 'Javascript', 'TCL']
-        self.timezome # ['UTC+1']
+        self.timezome = ['UTC+1']
         self.projects = [
             {
                 "project": "elitebot",

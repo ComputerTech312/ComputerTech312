@@ -6,7 +6,7 @@ class AboutMe:
         self.name = 'Colby'
         self.location = 'Northern Ireland'
         self.hobbies = ['Programming', 'Sysadmin']
-        self.languages = ['Python', 'HTML', 'CSS', 'Javascript']
+        self.languages = ['Python', 'HTML', 'CSS', 'Javascript', 'TCL']
         self.projects = [
             {
                 "project": "elitebot",

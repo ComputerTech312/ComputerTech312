@@ -11,7 +11,7 @@ class AboutMe:
             {
                 "project": "elitebot",
                 "language": "Python",
-                "description": "A simple IRC bot written in Python, depending on no third party framework."
+                "description": "A simple IRC bot written in Python, which doesn't depend on a third party framework."
             },
         ]
 ```

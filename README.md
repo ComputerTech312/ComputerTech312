@@ -4,6 +4,7 @@
 class AboutMe:
     def __init__(self):
         self.name = 'Colby'
+        self.age = '20'
         self.location = 'Northern Ireland'
         self.hobbies = ['Programming', 'Sysadmin']
         self.languages = ['Python', 'HTML', 'CSS', 'Javascript', 'TCL']

@@ -13,12 +13,12 @@ class AboutMe:
             {
                 "project": "elitebot",
                 "language": "Python",
-                "description": "A simple IRC bot written in Python, which doesn't depend on a third party framework."
+                "description": "This is a Python-based IRC bot that is simple and doesn't require any third-party frameworks."
             },
             {
                 "project": "ninjawall",
                 "language": "Python",
-                "description": "A simple tool that manipulates iptables efficiently."
+                "description": "A user-friendly utility that optimizes the manipulation of iptables for efficient management of network traffic."
             },
         ]
 

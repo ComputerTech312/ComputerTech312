@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hello. 👋
 
 ```python
 class AboutMe:

@@ -11,9 +11,10 @@ class AboutMe:
         self.timezone = ['UTC+1']
         self.projects = [
             {
-                "project": "elitebot",
-                "language": "Python",
-                "description": "This is a Python-based IRC bot that is simple and doesn't require any third-party frameworks."
+                'project': 'elitebot',
+                'repo': 'EliteBot',
+                'language': 'Python',
+                'description': 'This is a Python-based IRC bot that is simple and doesn't require any third-party frameworks.'
             },
             {
                 "project": "ninjawall",

@@ -12,14 +12,13 @@ class AboutMe:
         self.projects = [
             {
                 'project': 'elitebot',
-                'repo': 'EliteBot',
                 'language': 'Python',
                 'description': 'This is a Python-based IRC bot that is simple and doesn't require any third-party frameworks.'
             },
             {
-                "project": "ninjawall",
-                "language": "Python",
-                "description": "A user-friendly utility that optimizes the manipulation of iptables for efficient management of network traffic."
+                'project': 'ninjawall',
+                'language': 'Python',
+                'description': 'A user-friendly utility that optimizes the manipulation of iptables for efficient management of network traffic.'
             },
         ]
 

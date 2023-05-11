@@ -14,7 +14,7 @@ class AboutMe:
             {
                 'project': 'elitebot',
                 'language': 'Python',
-                'description': 'This is a Python-based IRC bot that is simple and doesn't require any third-party frameworks.'
+                'description': 'This is a Python-based IRC bot that is simple and doesn't use any third-party frameworks.'
             },
             {
                 'project': 'ninjawall',

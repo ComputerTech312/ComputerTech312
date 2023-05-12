@@ -6,6 +6,7 @@ class AboutMe:
         self.name = 'Colby'
         self.user = 'ComputerTech'
         self.age = '20'
+        self.about = 'I'm a full stack developer/sysadmin that likes 
         self.location = 'Northern Ireland'
         self.hobbies = ['Programming', 'Sysadmin']
         self.languages = ['Python', 'HTML', 'CSS', 'Javascript', 'TCL']

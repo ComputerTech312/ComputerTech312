@@ -9,7 +9,7 @@ class AboutMe:
         self.about = "I'm a full stack developer/sysadmin that enjoys breaking and fixing things."
         self.location = 'Northern Ireland'
         self.hobbies = ['Programming', 'Sysadmin']
-        self.languages = ['Python', 'HTML', 'CSS', 'Javascript', 'TCL']
+        self.languages = ['Python', 'GoLang', 'HTML', 'CSS', 'Javascript', 'TCL']
         self.os = ['Ubuntu', 'Windows']
         self.timezone = ['UTC+1']
         self.projects = [

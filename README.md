@@ -8,7 +8,7 @@ class AboutMe:
         self.age = '20'
         self.about = "I'm a full stack developer/sysadmin that enjoys breaking and fixing things."
         self.location = 'Northern Ireland'
-        self.hobbies = ['Programming', 'Sysadmin']
+        self.hobbies = ['Programming', 'Sysadmin', 'IRC']
         self.languages = ['Python', 'Go', 'HTML', 'CSS', 'Javascript', 'TCL']
         self.os = ['Ubuntu', 'Windows']
         self.timezone = ['UTC+1']

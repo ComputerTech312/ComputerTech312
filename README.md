@@ -1,7 +1,6 @@
 ### Hello. 👋
 
 ```python
-#!/usr/bin/env python3
 class AboutMe:
     def __init__(self):
         self.name = 'Colby'

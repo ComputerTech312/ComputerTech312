@@ -27,7 +27,7 @@ class AboutMe:
         ]
 
     def introduce(self):
-        print(f'Hi, my name is {self.name} from {self.location}, a {self.age} year old {self.gender} {self.about}')
+        print(f'Hello, my name is {self.name} from {self.location}, a {self.age} year old {self.gender} {self.about}')
 
 self = AboutMe()
 self.introduce()

@@ -6,6 +6,7 @@ class AboutMe:
         self.name = 'Colby'
         self.user = 'ComputerTech'
         self.age = 20
+        self.gender = 'male'
         self.about = 'Full stack developer/sysadmin that enjoys breaking and fixing things.'
         self.location = 'Northern Ireland'
         self.hobbies = ['Programming', 'Sysadmin', 'IRC']
@@ -26,7 +27,7 @@ class AboutMe:
         ]
 
     def introduce(self):
-        print(f'Hi, my name is {self.name} from {self.location}, I am {self.age} years old, I\'m a {self.about}')
+        print(f'Hi, my name is {self.name} from {self.location}, A {self.age} years old {self.gender} {self.about}')
 
 self = AboutMe()
 self.introduce()

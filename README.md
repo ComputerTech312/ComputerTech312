@@ -6,7 +6,7 @@ class AboutMe:
         self.name = 'Colby'
         self.user = 'ComputerTech'
         self.age = 20
-        self.about = 'I'm a full stack developer/sysadmin that enjoys breaking and fixing things.'
+        self.about = 'Full stack developer/sysadmin that enjoys breaking and fixing things.'
         self.location = 'Northern Ireland'
         self.hobbies = ['Programming', 'Sysadmin', 'IRC']
         self.languages = ['Python', 'Go', 'HTML', 'CSS', 'Javascript', 'TCL']
@@ -16,7 +16,7 @@ class AboutMe:
             {
                 'project': 'elitebot',
                 'language': 'Python',
-                'description': 'This is a Python-based IRC bot that is simple and doesn't use any third-party frameworks.'
+                'description': 'This is a Python-based IRC bot that is simple and doesn\'t use any third-party frameworks.'
             },
             {
                 'project': 'ninjawall',
@@ -25,4 +25,9 @@ class AboutMe:
             },
         ]
 
+    def introduce(self):
+        print(f'Hi, my name is {self.name} from {self.location}, I am {self.age} years old, I\'m a {self.about}')
+
+colby = AboutMe()
+colby.introduce()
 ```

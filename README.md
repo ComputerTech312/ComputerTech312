@@ -6,7 +6,7 @@ class AboutMe:
         self.name = 'Colby'
         self.user = 'ComputerTech'
         self.age = 20
-        self.dob = '05-08-2002'
+        self.dob = '05-08-2002' # dd-mm-yyyy format
         self.gender = 'male'
         self.about = 'full stack developer/sysadmin that enjoys breaking and fixing things.'
         self.location = 'Northern Ireland'

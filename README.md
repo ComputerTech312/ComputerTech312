@@ -5,7 +5,7 @@ class AboutMe:
     def __init__(self):
         self.name = 'Colby'
         self.user = 'ComputerTech'
-        self.age = 20
+        self.age = 21
         self.dob = 1028548800
         self.gender = 'male'
         self.about = 'full stack developer/sysadmin that enjoys breaking and fixing things.'

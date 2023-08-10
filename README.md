@@ -1,18 +1,19 @@
 ### Hello. 👋
 
 ```python
+from datetime import datetime
+
 class AboutMe:
     def __init__(self):
         self.name = 'Colby'
         self.user = 'ComputerTech'
-        self.age = 21
         self.dob = 1028548800
         self.gender = 'male'
         self.about = 'full stack developer/sysadmin that enjoys breaking and fixing things.'
         self.location = 'Ireland'
         self.hobbies = ['Programming', 'Sysadmin', 'IRC']
         self.languages = ['Python', 'Go', 'HTML', 'CSS', 'Javascript', 'TCL']
-        self.os = ['Ubuntu', 'Windows']
+        self.os = ['Ubuntu', 'Debian', 'Windows']
         self.timezone = ['UTC+1']
         self.projects = [
             {
@@ -27,9 +28,22 @@ class AboutMe:
             },
         ]
 
-    def introduce(self):
-        print(f'Hello, my name is {self.name} from {self.location}, a {self.age} year old {self.gender} {self.about}')
+        self.calculate_age()
 
-self = AboutMe()
-self.introduce()
+    def calculate_age(self):
+        dob_datetime = datetime.fromtimestamp(self.dob)
+        current_datetime = datetime.now()
+        age_timedelta = current_datetime - dob_datetime
+        self.age = age_timedelta.days // 365
+
+    def introduce(self):
+        print(f'Hello, my name is {self.name} from {self.location}, {self.age} years old {self.gender}. I was born on {self.formatted_dob}. I am a {self.about}')
+
+    @property
+    def formatted_dob(self):
+        dob_datetime = datetime.fromtimestamp(self.dob)
+        return dob_datetime.strftime("%Y-%m-%d")
+
+my_profile = AboutMe()
+my_profile.introduce()
 ```

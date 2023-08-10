@@ -42,7 +42,7 @@ class AboutMe:
     @property
     def formatted_dob(self):
         dob_datetime = datetime.fromtimestamp(self.dob)
-        return dob_datetime.strftime("%Y-%m-%d")
+        return dob_datetime.strftime('%Y-%m-%d')
 
 my_profile = AboutMe()
 my_profile.introduce()

@@ -1,7 +1,6 @@
 ### Hello. 👋
 
-```python
-from datetime import datetime
+```from datetime import datetime
 
 class AboutMe:
     def __init__(self):
@@ -41,8 +40,7 @@ class AboutMe:
 
     @property
     def formatted_dob(self):
-        dob_datetime = datetime.fromtimestamp(self.dob)
-        return dob_datetime.strftime('%Y-%m-%d')
+        return f"{datetime.fromtimestamp(self.dob):%Y-%m-%d}"
 
 my_profile = AboutMe()
 my_profile.introduce()

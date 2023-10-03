@@ -1,6 +1,7 @@
 ### Hello. 👋
 
-```from datetime import datetime
+```python
+from datetime import datetime
 
 class AboutMe:
     def __init__(self):
@@ -18,12 +19,12 @@ class AboutMe:
             {
                 'project': 'elitebot',
                 'language': 'Python',
-                'description': 'This is a Python-based IRC bot that is simple and doesn't use any third-party frameworks.'
+                'description': "This is a Python-based IRC bot that is simple and doesn't use any third-party frameworks."
             },
             {
                 'project': 'ninjawall',
                 'language': 'Python',
-                'description': 'A user-friendly utility that optimizes the manipulation of iptables for efficient management of network traffic.'
+                'description': "A user-friendly utility that optimizes the manipulation of iptables for efficient management of network traffic."
             },
         ]
 
@@ -40,8 +41,9 @@ class AboutMe:
 
     @property
     def formatted_dob(self):
-        return f"{datetime.fromtimestamp(self.dob):%Y-%m-%d}"
+        return f"{datetime.fromtimestamp(self.dob):%d-%m-%Y}"
 
 my_profile = AboutMe()
 my_profile.introduce()
+
 ```

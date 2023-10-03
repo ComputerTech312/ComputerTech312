@@ -13,7 +13,7 @@ class AboutMe:
         self.location = 'Ireland'
         self.hobbies = ['Programming', 'Sysadmin', 'IRC']
         self.languages = ['Python', 'Go', 'HTML', 'CSS', 'Javascript', 'TCL']
-        self.os = ['Ubuntu', 'Debian', 'Windows']
+        self.os = ['Ubuntu', 'Windows']
         self.timezone = ['UTC+1']
         self.projects = [
             {

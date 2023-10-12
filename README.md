@@ -11,7 +11,7 @@ class AboutMe:
         self.gender = 'male'
         self.about = 'full stack developer/sysadmin that enjoys breaking and fixing things.'
         self.location = 'Ireland'
-        self.hobbies = ['Programming', 'Sysadmin', 'IRC']
+        self.hobbies = ['Programming', 'Sysadmin', 'IRC', 'LEGO']
         self.languages = ['Python', 'Go', 'HTML', 'CSS', 'Javascript', 'TCL']
         self.os = ['Ubuntu', 'Windows']
         self.timezone = ['UTC+1']

@@ -1,7 +1,7 @@
 ### Hello. 👋
 
 ```python
-from datetime import datetime
+from colby import information
 
 class AboutMe:
     def __init__(self):

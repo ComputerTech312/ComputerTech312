@@ -23,7 +23,8 @@ class AboutMe:
             },
             {
                 'project': 'tilde.green',
-                'description': "tilde.green is an open source tilde community."
+                'url': 'https://tilde.green',
+                'description': "tilde.green is an open community that thrives of creativity and wildness"
             },
         ]
 

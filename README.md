@@ -1,4 +1,4 @@
-### Hello. 👋
+### Hello. (•◡•)/
 
 ```python
 from colby import information

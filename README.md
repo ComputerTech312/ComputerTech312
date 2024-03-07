@@ -7,7 +7,7 @@ class AboutMe:
     def __init__(self):
         self.name = 'Colby'
         self.user = 'ComputerTech'
-        self.age = 21
+        self.age = 1028541600
         self.gender = 'male'
         self.about = 'full stack developer/sysadmin that enjoys breaking and fixing things.'
         self.birth_country = 'Ireland'
@@ -22,15 +22,12 @@ class AboutMe:
                 'language': 'Python',
                 'description': "This is a Python-based IRC bot that is simple and doesn't use any third-party frameworks."
             },
-            {
-                'project': 'tilde.green',
-                'url': 'https://tilde.green',
-                'description': "tilde.green is an open community that thrives of creativity and wildness"
-            },
         ]
 
     def introduce(self):
-        print(f'Hey, how's it going?, my name is {self.name} from {self.location}, {self.age} years old {self.gender}. I was born in {self.birth_country} and currently live in {self.current_country}. I am a {self.about}')
+        print(f'Hello, my name is {self.name}. I\'m from {self.location} and {self.age} years old.')
+        print(f'I was born in {self.birth_country} and currently live in {self.current_country}.') 
+        print(f'I\'m a {self.about}.')
 
 my_profile = AboutMe()
 my_profile.introduce()

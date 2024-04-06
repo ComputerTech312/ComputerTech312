@@ -6,7 +6,7 @@ from colby import information
 class AboutMe:
     def __init__(self):
         self.name = 'Colby'
-        self.user = 'ComputerTech'
+        self.nick = 'ComputerTech'
         self.birthday = 1028541600
         self.gender = 'male'
         self.about = 'full stack developer/sysadmin that enjoys breaking and fixing things.'

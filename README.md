@@ -10,8 +10,7 @@ class AboutMe:
         self.birthday = 1028541600
         self.gender = 'male'
         self.about = 'full stack developer/sysadmin that enjoys breaking and fixing things.'
-        self.birth_country = 'Ireland'
-        self.location = 'Warsaw, Poland'
+        self.location = 'Ireland'
         self.hobbies = ['Programming', 'Sysadmin', 'IRC', 'LEGO']
         self.languages = ['Python', 'HTML', 'CSS', 'JavaScript', 'Go', 'Tcl', 'C', 'C++']
         self.os = ['Ubuntu', 'FreeBSD', 'Windows']
@@ -25,8 +24,7 @@ class AboutMe:
         ]
 
     def introduce(self):
-        print(f'Hello, my name is {self.name}. I\'m from {self.location} and {self.age} years old.')
-        print(f'I was born in {self.birth_country} and currently live in {self.current_country}.') 
+        print(f'Hello, my name is {self.name}. I\'m from {self.location} and am {self.age} years old.')
         print(f'I\'m a {self.about}.')
 
 my_profile = AboutMe()

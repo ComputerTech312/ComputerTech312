@@ -31,5 +31,3 @@ my_profile = AboutMe()
 my_profile.introduce()
 
 ```
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/computertech)

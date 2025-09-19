@@ -17,9 +17,9 @@ class AboutMe:
         self.timezone = ['UTC+1']
         self.projects = [
             {
-                'project': 'elitebot',
+                'project': 'Sharey',
                 'language': 'Python',
-                'description': "This is a Python-based IRC bot that is simple and doesn't use any third-party frameworks."
+                'description': "A website for sharing files, URL redirection and Pastes."
             },
         ]
 
